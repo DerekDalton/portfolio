@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Derek Dalton</title>
+        <link rel="shortcut icon" href="bin/img/dd.png">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=0">
+
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="bin/slick/slick.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+
+        <link rel="stylesheet" type="text/css" href="bin/style.css">
+        <link rel="stylesheet" type="text/css" href="bin/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="bin/slick/slick-theme.css"/>
+    </head>
+
+
+    <body>
+        <header class="header">
+            <nav class="header-inner">
+                <div class="header-logo-div">
+                    <a href="/"><img src="bin/img/dd.png" class="header-logo"/></a>
+                </div>
+                <div class="header-links">
+                    <ol>
+                        <li><a href="/#about">About</a></li>
+                        <li><a href="/#portfolio">Work</a></li>
+                        <li><a href="/#contact">Contact</a></li>
+                    </ol>
+                </div>
+                <div class="hamburger" onclick="mobileMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </nav>
+            <div id="mySidebar" class="sidebar">
+                <a href="#about" onclick="$('.hamburger').click ();">About</a>
+                <a href="#portfolio" onclick="$('.hamburger').click ();">Work</a>
+                <a href="#contact" onclick="$('.hamburger').click ();">Contact</a>
+            </div>
+        </header>
+        <div class="portfolioTop">
+            <h1 class="reveal">Treasures of Baja Island (DEW)</h1>
+            <div class="videowrapper reveal">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CTBonnsqiwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <p class="reveal">For this program, I worked on a team with MTN DEW to develop a microsite for a summer campaign they were running. We wanted a fun interactive map to show users how to enter their sweepstakes and promote their new products. This required me to push myself on my front end abilities as well as manage incoming entries from all over the country.</p>
+            <div class="slideshow reveal">
+                <div><img src="bin/img/DEW/landing.PNG" onclick="openModal();$('#slick-slide-control10').click ();"></div>
+                <div><img src="bin/img/DEW/howto.PNG" onclick="openModal();$('#slick-slide-control11').click ();"></div>
+                <div><img src="bin/img/DEW/flavors.PNG" onclick="openModal();$('#slick-slide-control12').click ();"></div>
+                <div><img src="bin/img/DEW/treasures.PNG" onclick="openModal();$('#slick-slide-control13').click ();"></div>
+                <div><img src="bin/img/DEW/social.PNG" onclick="openModal();$('#slick-slide-control14').click ();"></div>
+                <div><img src="bin/img/DEW/baja.PNG" onclick="openModal();$('#slick-slide-control15').click ();"></div>
+                <div><img src="bin/img/DEW/mango.PNG" onclick="openModal();$('#slick-slide-control16').click ();"></div>
+                <div><img src="bin/img/DEW/gold.PNG" onclick="openModal();$('#slick-slide-control17').click ();"></div>
+                <div><img src="bin/img/DEW/deepdive.PNG" onclick="openModal();$('#slick-slide-control18').click ();"></div>
+                <div><img src="bin/img/DEW/login.PNG" onclick="openModal();$('#slick-slide-control19').click ();"></div>
+                <div><img src="bin/img/DEW/register.PNG" onclick="openModal();$('#slick-slide-control110').click ();"></div>
+                <div><img src="bin/img/DEW/enter.PNG" onclick="openModal();$('#slick-slide-control111').click ();"></div>
+                <div><img src="bin/img/DEW/success.PNG" onclick="openModal();$('#slick-slide-control112').click ();"></div>
+                <div><img src="bin/img/DEW/success2.PNG" onclick="openModal();$('#slick-slide-control113').click ();"></div>
+                <div><img src="bin/img/DEW/account.PNG" onclick="openModal();$('#slick-slide-control114').click ();"></div>
+                <div><img src="bin/img/DEW/faq.PNG" onclick="openModal();$('#slick-slide-control115').click ();"></div>
+                <div><img src="bin/img/DEW/rules.PNG" onclick="openModal();$('#slick-slide-control116').click ();"></div>
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+              
+                    <div class="modalSlideshow">
+                        <div><img src="bin/img/DEW/landing.PNG"></div>
+                        <div><img src="bin/img/DEW/howto.PNG"></div>
+                        <div><img src="bin/img/DEW/flavors.PNG"></div>
+                        <div><img src="bin/img/DEW/treasures.PNG"></div>
+                        <div><img src="bin/img/DEW/social.PNG"></div>
+                        <div><img src="bin/img/DEW/baja.PNG"></div>
+                        <div><img src="bin/img/DEW/mango.PNG"></div>
+                        <div><img src="bin/img/DEW/gold.PNG"></div>
+                        <div><img src="bin/img/DEW/deepdive.PNG"></div>
+                        <div><img src="bin/img/DEW/login.PNG"></div>
+                        <div><img src="bin/img/DEW/register.PNG"></div>
+                        <div><img src="bin/img/DEW/enter.PNG"></div>
+                        <div><img src="bin/img/DEW/success.PNG"></div>
+                        <div><img src="bin/img/DEW/success2.PNG"></div>
+                        <div><img src="bin/img/DEW/account.PNG"></div>
+                        <div><img src="bin/img/DEW/faq.PNG"></div>
+                        <div><img src="bin/img/DEW/rules.PNG"></div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                if ($(window).width() > 751) {
+                    function openModal() {
+                    document.getElementById("myModal").style.display = "block";
+                    }
+                    
+                    function closeModal() {
+                    document.getElementById("myModal").style.display = "none";
+                    }
+                }
+            </script>
+            <div class="mobileDisplay reveal">
+                <img src="bin/img/phoneFrame.png" class="phoneFrame">
+                <div class="mobileScrollDiv">
+                    <img src="bin/img/DEW/mobileLanding.png" class="mobileLandingImg">
+                </div>
+            </div>
+            <div class="portfolio" id="portfolio">
+                <div class="portContain reveal">
+                    <h2>Other Work</h2>
+                    <a href="/baja_mde"><div class="portDiv">
+                        <img class="portImg" src="bin/img/MDE/landing.PNG">
+                        <h3>Treasures of Baja Island (MDE)</h3>
+                    </div></a>
+                    <a href="/call_of_duty"><div class="portDiv">
+                        <img class="portImg" src="bin/img/COD/landing.PNG">
+                        <h3>DEW x Call of Duty Modern Warfare II</h3>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        <script src="bin/scripts.js"></script>
+    </body>
+</html>
